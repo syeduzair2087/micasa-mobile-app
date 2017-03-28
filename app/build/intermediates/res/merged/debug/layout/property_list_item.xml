@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+
+
+    android:background="#222d32"
+    android:columnCount="2"
+    android:rowCount="4">
+
+
+    <ImageView
+        android:layout_width="120px"
+        android:layout_height="100px"
+        android:id="@+id/imgImage"
+        android:layout_rowSpan="4"
+         />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/lblID"
+            android:visibility="gone"
+            android:textColor="#FFFFFF" />
+
+    <TextView
+            android:layout_marginLeft="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/lblName"
+            android:textColor="#FFFFFF" />
+
+
+
+
+        <TextView
+            android:layout_marginLeft="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/lblPrice"
+            android:textColor="#FFFFFF" />
+
+
+
+
+        <TextView
+            android:layout_marginLeft="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/lblArea"
+            android:textColor="#FFFFFF" />
+
+
+</GridLayout><!-- From: file:/C:/Users/Syed%20Uzair%20Mumtaz/AndroidStudioProjects/MiCasa/app/src/main/res/layout/property_list_item.xml -->

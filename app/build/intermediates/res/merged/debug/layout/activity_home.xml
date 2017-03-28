@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context=".SignUpActivity"
+    android:background="#222d32">
+
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            app:layout_widthPercent="100%"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblCategoryTitle"
+            android:text="Please choose a category"
+            android:layout_centerHorizontal="true"
+            app:layout_marginTopPercent="10%"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+
+            />
+
+        <Button
+            app:layout_widthPercent="90%"
+            android:layout_height="40dp"
+            android:text="House (Full)"
+            android:id="@+id/btnHouseFull"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/lblCategoryTitle"
+            app:layout_marginTopPercent="15%"
+            android:textColor="#ffffff"
+            android:background="#556fff" />
+
+        <Button
+            app:layout_widthPercent="90%"
+            android:layout_height="40dp"
+            android:text="House (Portion)"
+            android:id="@+id/btnHousePortion"
+            android:layout_below="@id/btnHouseFull"
+            android:layout_centerInParent="true"
+            app:layout_marginTopPercent="1%"
+            android:textColor="#ffffff"
+            android:background="#556fff" />
+
+        <Button
+            app:layout_widthPercent="90%"
+            android:layout_height="40dp"
+            android:text="Appartment"
+            android:id="@+id/btnAppartment"
+            android:layout_below="@id/btnHousePortion"
+            android:layout_centerInParent="true"
+            app:layout_marginTopPercent="1%"
+            android:textColor="#ffffff"
+            android:background="#556fff" />
+
+        <Button
+            app:layout_widthPercent="90%"
+            android:layout_height="40dp"
+            android:text="Plot"
+            android:id="@+id/btnPlot"
+            android:layout_below="@id/btnAppartment"
+            android:layout_centerInParent="true"
+            app:layout_marginTopPercent="1%"
+            android:textColor="#ffffff"
+            android:background="#556fff" />
+
+
+
+
+
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Syed%20Uzair%20Mumtaz/AndroidStudioProjects/MiCasa/app/src/main/res/layout/activity_home.xml -->

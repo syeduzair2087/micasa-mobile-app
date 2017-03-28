@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Syed Uzair Mumtaz\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Syed Uzair Mumtaz\AndroidStudioProjects\MiCasa\app\build\intermediates\pre-dexed\debug\gson-2.2.4-5cc7fcdcdd62f8e5c8ab22fc3b9f022a3c0f4134.jar" />
+    </item>
+    <item
+        jar="C:\Users\Syed Uzair Mumtaz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.6.1\efb0a36546aa8857ab8df358b106c1817e03cbee\retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="C:\Users\Syed Uzair Mumtaz\AndroidStudioProjects\MiCasa\app\build\intermediates\pre-dexed\debug\retrofit-1.6.1-04cd8465a7d81ebdf560e4c9d15f3dc562248cd5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Syed Uzair Mumtaz\AndroidStudioProjects\MiCasa\app\libs\jtds-1.2.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="47f9b00937707c328eccbcdd38867a799ea91b44">
+        <dex dex="C:\Users\Syed Uzair Mumtaz\AndroidStudioProjects\MiCasa\app\build\intermediates\pre-dexed\debug\jtds-1.2.7-de5f515df19ad7998b8f0cf58e906a2ca1dc32af.jar" />
+    </item>
+
+</items>

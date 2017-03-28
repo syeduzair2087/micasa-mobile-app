@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context=".SignUpActivity"
+    android:background="#222d32">
+
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            app:layout_widthPercent="100%"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblListTitle"
+            android:text="Title"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            app:layout_marginBottomPercent="3%"
+
+            />
+
+        <ListView
+            android:layout_below="@id/lblListTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lstProperties" />
+
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Syed%20Uzair%20Mumtaz/AndroidStudioProjects/MiCasa/app/src/main/res/layout/activity_list.xml -->
